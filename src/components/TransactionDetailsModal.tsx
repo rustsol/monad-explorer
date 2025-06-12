@@ -295,7 +295,7 @@ export const TransactionDetailsModal: React.FC<TransactionDetailsModalProps> = (
         <div className={`p-4 border-t ${themeClasses.header} flex justify-between items-center`}>
           <div className="flex items-center space-x-2">
             <span className="text-2xl">🐵</span>
-            <span className={`text-sm ${themeClasses.textMuted}`}>MonAnimal Explorer</span>
+            <span className={`text-sm ${themeClasses.textMuted}`}>Monkey Explorer</span>
           </div>
           <button
             onClick={() => window.open(`https://testnet.monadexplorer.com/tx/${transaction.hash}`, '_blank')}

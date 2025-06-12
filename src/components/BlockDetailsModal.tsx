@@ -217,7 +217,7 @@ export const BlockDetailsModal: React.FC<BlockDetailsModalProps> = ({
         <div className={`p-4 border-t ${themeClasses.header} flex justify-between items-center`}>
           <div className="flex items-center space-x-2">
             <span className="text-2xl">🐒</span>
-            <span className={`text-sm ${themeClasses.textMuted}`}>MonAnimal Explorer</span>
+            <span className={`text-sm ${themeClasses.textMuted}`}>Monkey Explorer</span>
           </div>
           <button
             onClick={() => window.open(`https://testnet.monadexplorer.com/block/${block.number}`, '_blank')}
