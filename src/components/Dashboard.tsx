@@ -23,7 +23,7 @@ export const Dashboard: React.FC = () => {
   } = useMonadData();
 
   const [currentMonanimal, setCurrentMonanimal] = useState<string>(monanimals[0]);
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
   const [contractStats, setContractStats] = useState({
     totalContracts: 0,
     newContracts24h: 0,
