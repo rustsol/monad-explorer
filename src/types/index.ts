@@ -65,3 +65,21 @@ export interface ChartDataPoint {
   contracts?: number;
   tokens?: number;
 }
+
+// New analytics interfaces
+export interface TransactionStats {
+  totalTransactions: number;
+  totalTransactions24h: number;
+  totalTransactions7d: number;
+  estimatedTotalTransactions: number;
+  transactionsPerSecond: number;
+  lastUpdated: number;
+}
+
+export interface AccountStats {
+  totalAccounts: number;
+  accountsCreated24h: number;
+  accountsCreated7d: number;
+  uniqueActiveAccounts24h: number;
+  lastUpdated: number;
+}
