@@ -378,7 +378,7 @@ export const Dashboard: React.FC = () => {
               
               <div>
                 <h1 className={`text-2xl font-bold ${themeClasses.headerText}`}>Monkey Explorer</h1>
-                <p className={`text-sm ${themeClasses.headerSubtext}`}>Monad Testnet Dashboard • Live Ecosystem Data</p>
+                <p className={`text-sm ${themeClasses.headerSubtext}`}>Monad Testnet</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -463,7 +463,7 @@ export const Dashboard: React.FC = () => {
             </div>
             <div className={`flex items-center space-x-2 text-sm ${themeClasses.cardTextSecondary}`}>
               <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-              <span>Updates every 10s</span>
+              <span>Updates every 7s</span>
             </div>
           </div>
           
@@ -903,9 +903,8 @@ export const Dashboard: React.FC = () => {
           </div>
           <p className="text-sm">
             Connection attempts: {connectionAttempts} • 
-            Data refreshes every 10 seconds • 
+            Data refreshes every 7 seconds • 
             Statistics calibrated to match official Monad testnet explorer • 
-            Built for Monad Builder Mission
           </p>
         </footer>
       </div>
