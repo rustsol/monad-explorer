@@ -385,7 +385,7 @@ export const Dashboard: React.FC = () => {
               {/* Black Cap hanging in header */}
               <div className="relative">
                 <img 
-                  src="../assets/3.png"
+                  src="../assets/logo.png"
                   alt="Black Cap"
                   className="w-12 h-12 object-cover rounded-lg shadow-lg transform hover:scale-110 transition-transform duration-300"
                   style={{
